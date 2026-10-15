@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 178" width="1000" height="178" role="img">
+ <defs>
+ <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2f050e"/><stop offset="0.53" stop-color="#1a050c"/><stop offset="1" stop-color="#10050c"/></linearGradient>
+ <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f11862"/><stop offset="0.5" stop-color="#ff585d"/><stop offset="1" stop-color="#e0216b"/></linearGradient>
+ <linearGradient id="linefade" x1="0" x2="1" y1="0" y2="0"><stop stop-color="#990a27" stop-opacity="0"/><stop offset="0.4" stop-color="#ff5665"/><stop offset="1" stop-color="#c41145" stop-opacity="0"/></linearGradient>
+ <radialGradient id="halo" cx="50%" cy="10%" r="80%"><stop stop-color="#d50a47" stop-opacity="0.42"/><stop offset="0.55" stop-color="#4e0317" stop-opacity="0.2"/><stop offset="1" stop-color="#0e0307" stop-opacity="0"/></radialGradient>
+ <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>
+ text{font-family:'DejaVu Sans Mono','Consolas',monospace;}
+ .body{font-family:'Inter','DejaVu Sans',sans-serif;}
+ @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}.cursor{animation:blink 1.15s steps(1,end) infinite;}
+ </style>
+ 
+ </defs>
+ <rect width="1000" height="178" fill="none"/><polygon points="7,10 225,10 242,27 242,164 24,164 7,147" fill="url(#surface)" stroke="#f53646" stroke-width="2.8"/>
+  <path d="M 17 21 H 60" stroke="#ff4f5d" stroke-width="3" opacity="0.85"/>
+  <path d="M 197 151 H 230" stroke="#ff3560" stroke-width="2" opacity="0.7"/>
+  <text x="124.5" y="86" text-anchor="middle" font-size="29" fill="#ffeaf0" font-weight="bold">JAVA</text>
+  <text x="124.5" y="121" text-anchor="middle" font-size="13" fill="#e95c71" letter-spacing="1">[ ESTUDANDO ]</text>
+  <polygon points="257,10 475,10 492,27 492,164 274,164 257,147" fill="url(#surface)" stroke="#f53646" stroke-width="2.8"/>
+  <path d="M 267 21 H 310" stroke="#ff4f5d" stroke-width="3" opacity="0.85"/>
+  <path d="M 447 151 H 480" stroke="#ff3560" stroke-width="2" opacity="0.7"/>
+  <text x="374.5" y="86" text-anchor="middle" font-size="29" fill="#ffeaf0" font-weight="bold">HTML</text>
+  <text x="374.5" y="121" text-anchor="middle" font-size="13" fill="#e95c71" letter-spacing="1">[ ESTUDANDO ]</text>
+  <polygon points="507,10 725,10 742,27 742,164 524,164 507,147" fill="url(#surface)" stroke="#c63962" stroke-width="2.8"/>
+  <path d="M 517 21 H 560" stroke="#ff4f5d" stroke-width="3" opacity="0.85"/>
+  <path d="M 697 151 H 730" stroke="#ff3560" stroke-width="2" opacity="0.7"/>
+  <text x="624.5" y="86" text-anchor="middle" font-size="29" fill="#ffeaf0" font-weight="bold">CSS</text>
+  <text x="624.5" y="121" text-anchor="middle" font-size="13" fill="#e95c71" letter-spacing="1">[ ESTUDANDO ]</text>
+  <polygon points="757,10 975,10 992,27 992,164 774,164 757,147" fill="url(#surface)" stroke="#c63962" stroke-width="2.8"/>
+  <path d="M 767 21 H 810" stroke="#ff4f5d" stroke-width="3" opacity="0.85"/>
+  <path d="M 947 151 H 980" stroke="#ff3560" stroke-width="2" opacity="0.7"/>
+  <text x="874.5" y="86" text-anchor="middle" font-size="29" fill="#ffeaf0" font-weight="bold">JAVASCRIPT</text>
+  <text x="874.5" y="121" text-anchor="middle" font-size="13" fill="#e95c71" letter-spacing="1">[ ESTUDANDO ]</text>
+  
+ </svg>
